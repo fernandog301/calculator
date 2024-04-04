@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.whiteBG {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.veryLightGrayishCyan {
+  background-color: hsl(189, 41%, 97%);
+}
+
+.lightGrayishCyan {
+  background-color: hsl(185, 41%, 84%);
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +41,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.background{
+  background-color: hsl(172, 67%, 45%);
+  
 }
